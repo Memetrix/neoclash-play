@@ -1,56 +1,58 @@
 {
- "vox_lamp": {
-  "height_t": 1.6,
-  "plate_px": 118.0,
-  "plate_frac": 0.496,
-  "tiles": 1
+ "bush_dry_thorn": {
+  "height_t": 0.7,
+  "plate_px": 87.0,
+  "plate_frac": 0.362,
+  "tw": 1,
+  "td": 1
  },
- "forest_apple_accent": {
-  "height_t": 1.5,
-  "plate_px": 149.0,
-  "plate_frac": 0.662,
-  "tiles": 1
+ "grass_tuft_wild": {
+  "height_t": 0.45,
+  "plate_px": 36.7,
+  "plate_frac": 0.153,
+  "tw": 1,
+  "td": 1
  },
- "forest_birch_tall": {
-  "height_t": 2.3,
-  "plate_px": 166.2,
-  "plate_frac": 0.688,
-  "tiles": 1
- },
- "forest_bush_round": {
-  "height_t": 0.8,
-  "plate_px": 58.3,
-  "plate_frac": 0.296,
-  "tiles": 1
- },
- "forest_oak_big": {
-  "height_t": 2.1,
-  "plate_px": 199.0,
-  "plate_frac": 0.904,
-  "tiles": 1
- },
- "forest_oak_mid": {
-  "height_t": 1.6,
-  "plate_px": 154.2,
-  "plate_frac": 0.725,
-  "tiles": 1
- },
- "forest_oak_small": {
-  "height_t": 1.2,
-  "plate_px": 101.9,
-  "plate_frac": 0.517,
-  "tiles": 1
- },
- "forest_pine_big": {
-  "height_t": 2.2,
-  "plate_px": 199.9,
-  "plate_frac": 0.833,
-  "tiles": 1
- },
- "forest_pine_mid": {
+ "pine_dark_mid": {
   "height_t": 1.7,
-  "plate_px": 142.0,
-  "plate_frac": 0.721,
-  "tiles": 1
+  "plate_px": 52.9,
+  "plate_frac": 0.221,
+  "tw": 1,
+  "td": 1
+ },
+ "pine_dark_tall": {
+  "height_t": 2.3,
+  "plate_px": 45.2,
+  "plate_frac": 0.188,
+  "tw": 1,
+  "td": 1
+ },
+ "rock_boulder_big": {
+  "height_t": 0.95,
+  "plate_px": 106.7,
+  "plate_frac": 0.445,
+  "tw": 1,
+  "td": 1
+ },
+ "rock_boulder_small": {
+  "height_t": 0.55,
+  "plate_px": 50.1,
+  "plate_frac": 0.209,
+  "tw": 1,
+  "td": 1
+ },
+ "stump_mossy": {
+  "height_t": 0.55,
+  "plate_px": 57.2,
+  "plate_frac": 0.238,
+  "tw": 1,
+  "td": 1
+ },
+ "tree_dead_bare": {
+  "height_t": 1.9,
+  "plate_px": 77.3,
+  "plate_frac": 0.322,
+  "tw": 1,
+  "td": 1
  }
 }
