@@ -421,5 +421,145 @@
   "plate_px": 145.1,
   "plate_frac": 0.733,
   "tiles": 1
+ },
+ "air_ballista": {
+  "height_t": 3.05,
+  "plate_px": 229.2,
+  "plate_frac": 0.955,
+  "tw": 1,
+  "td": 1
+ },
+ "barracks": {
+  "height_t": 2.62,
+  "plate_px": 360.0,
+  "plate_frac": 1.0,
+  "tw": 2,
+  "td": 1
+ },
+ "camp_army": {
+  "height_t": 2.98,
+  "plate_px": 480.0,
+  "plate_frac": 1.0,
+  "tw": 2,
+  "td": 2
+ },
+ "cannon_fort": {
+  "height_t": 3.07,
+  "plate_px": 225.4,
+  "plate_frac": 0.939,
+  "tw": 1,
+  "td": 1
+ },
+ "fort_guard": {
+  "height_t": 3.73,
+  "plate_px": 480.0,
+  "plate_frac": 1.0,
+  "tw": 2,
+  "td": 2
+ },
+ "gate_wall": {
+  "height_t": 3.08,
+  "plate_px": 225.4,
+  "plate_frac": 0.939,
+  "tw": 1,
+  "td": 1
+ },
+ "hall_keep": {
+  "height_t": 4.7,
+  "plate_px": 480.0,
+  "plate_frac": 1.0,
+  "tw": 2,
+  "td": 2
+ },
+ "hut_builder": {
+  "height_t": 3.09,
+  "plate_px": 227.1,
+  "plate_frac": 0.946,
+  "tw": 1,
+  "td": 1
+ },
+ "lab_runes": {
+  "height_t": 2.75,
+  "plate_px": 228.9,
+  "plate_frac": 0.954,
+  "tw": 1,
+  "td": 1
+ },
+ "mine_gold": {
+  "height_t": 3.1,
+  "plate_px": 226.9,
+  "plate_frac": 0.945,
+  "tw": 1,
+  "td": 1
+ },
+ "mortar_pit": {
+  "height_t": 3.17,
+  "plate_px": 231.4,
+  "plate_frac": 0.964,
+  "tw": 1,
+  "td": 1
+ },
+ "spark_spire": {
+  "height_t": 2.75,
+  "plate_px": 228.7,
+  "plate_frac": 0.953,
+  "tw": 1,
+  "td": 1
+ },
+ "store_gold": {
+  "height_t": 3.1,
+  "plate_px": 226.7,
+  "plate_frac": 0.944,
+  "tw": 1,
+  "td": 1
+ },
+ "store_mana": {
+  "height_t": 2.71,
+  "plate_px": 226.2,
+  "plate_frac": 0.942,
+  "tw": 1,
+  "td": 1
+ },
+ "totem_war": {
+  "height_t": 2.88,
+  "plate_px": 227.6,
+  "plate_frac": 0.949,
+  "tw": 1,
+  "td": 1
+ },
+ "tower_arrow": {
+  "height_t": 2.94,
+  "plate_px": 228.7,
+  "plate_frac": 0.953,
+  "tw": 1,
+  "td": 1
+ },
+ "tower_frost": {
+  "height_t": 2.67,
+  "plate_px": 227.4,
+  "plate_frac": 0.948,
+  "tw": 1,
+  "td": 1
+ },
+ "wall_stone": {
+  "height_t": 3.17,
+  "plate_px": 230.2,
+  "plate_frac": 0.959,
+  "tw": 1,
+  "td": 1
+ },
+ "well_mana": {
+  "height_t": 3.09,
+  "plate_px": 225.9,
+  "plate_frac": 0.941,
+  "tw": 1,
+  "td": 1
+ },
+ "workshop_bombs": {
+  "height_t": 3.09,
+  "plate_px": 226.8,
+  "plate_frac": 0.945,
+  "tw": 1,
+  "td": 1
  }
 }
