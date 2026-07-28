@@ -1,0 +1,44 @@
+{
+ "unit_charodey": {
+  "height_t": 1.2,
+  "plate_px": 68.5,
+  "plate_frac": 0.286,
+  "tw": 1,
+  "td": 1
+ },
+ "unit_gromila": {
+  "height_t": 1.45,
+  "plate_px": 78.8,
+  "plate_frac": 0.328,
+  "tw": 1,
+  "td": 1
+ },
+ "unit_luchnitsa": {
+  "height_t": 1.1,
+  "plate_px": 61.9,
+  "plate_frac": 0.258,
+  "tw": 1,
+  "td": 1
+ },
+ "unit_maroder": {
+  "height_t": 1.05,
+  "plate_px": 80.8,
+  "plate_frac": 0.337,
+  "tw": 1,
+  "td": 1
+ },
+ "unit_podryvnik": {
+  "height_t": 1.0,
+  "plate_px": 63.3,
+  "plate_frac": 0.264,
+  "tw": 1,
+  "td": 1
+ },
+ "unit_ratnik": {
+  "height_t": 1.15,
+  "plate_px": 63.9,
+  "plate_frac": 0.266,
+  "tw": 1,
+  "td": 1
+ }
+}

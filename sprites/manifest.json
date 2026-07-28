@@ -423,17 +423,17 @@
   "tiles": 1
  },
  "air_ballista": {
-  "height_t": 3.05,
-  "plate_px": 229.2,
-  "plate_frac": 0.955,
+  "height_t": 3.12,
+  "plate_px": 226.8,
+  "plate_frac": 0.945,
   "tw": 1,
   "td": 1
  },
  "barracks": {
-  "height_t": 2.62,
-  "plate_px": 360.0,
-  "plate_frac": 1.0,
-  "tw": 2,
+  "height_t": 3.1,
+  "plate_px": 227.6,
+  "plate_frac": 0.948,
+  "tw": 1,
   "td": 1
  },
  "camp_army": {
@@ -451,7 +451,7 @@
   "td": 1
  },
  "fort_guard": {
-  "height_t": 3.73,
+  "height_t": 3.21,
   "plate_px": 480.0,
   "plate_frac": 1.0,
   "tw": 2,
@@ -459,8 +459,8 @@
  },
  "gate_wall": {
   "height_t": 3.08,
-  "plate_px": 225.4,
-  "plate_frac": 0.939,
+  "plate_px": 225.7,
+  "plate_frac": 0.94,
   "tw": 1,
   "td": 1
  },
@@ -501,8 +501,8 @@
  },
  "spark_spire": {
   "height_t": 2.75,
-  "plate_px": 228.7,
-  "plate_frac": 0.953,
+  "plate_px": 224.5,
+  "plate_frac": 0.935,
   "tw": 1,
   "td": 1
  },
@@ -514,9 +514,9 @@
   "td": 1
  },
  "store_mana": {
-  "height_t": 2.71,
-  "plate_px": 226.2,
-  "plate_frac": 0.942,
+  "height_t": 3.14,
+  "plate_px": 228.5,
+  "plate_frac": 0.952,
   "tw": 1,
   "td": 1
  },
@@ -543,8 +543,8 @@
  },
  "wall_stone": {
   "height_t": 3.17,
-  "plate_px": 230.2,
-  "plate_frac": 0.959,
+  "plate_px": 232.6,
+  "plate_frac": 0.969,
   "tw": 1,
   "td": 1
  },
