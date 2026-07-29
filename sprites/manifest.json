@@ -425,37 +425,42 @@
  "air_ballista": {
   "height_t": 3.12,
   "plate_px": 226.8,
-  "plate_frac": 0.945,
-  "tw": 1,
-  "td": 1
+  "plate_frac": 0.7521,
+  "tw": 2,
+  "td": 2,
+  "plate_tiles": 1.504
  },
  "barracks": {
   "height_t": 3.1,
   "plate_px": 227.6,
-  "plate_frac": 0.948,
-  "tw": 1,
-  "td": 1
+  "plate_frac": 0.8187,
+  "tw": 2,
+  "td": 2,
+  "plate_tiles": 1.637
  },
  "camp_army": {
   "height_t": 2.98,
   "plate_px": 480.0,
   "plate_frac": 1.0,
   "tw": 2,
-  "td": 2
+  "td": 2,
+  "plate_tiles": 2.0
  },
  "cannon_fort": {
   "height_t": 3.07,
   "plate_px": 225.4,
-  "plate_frac": 0.939,
-  "tw": 1,
-  "td": 1
+  "plate_frac": 1.0562,
+  "tw": 2,
+  "td": 2,
+  "plate_tiles": 2.112
  },
  "fort_guard": {
   "height_t": 3.21,
   "plate_px": 480.0,
-  "plate_frac": 1.0,
+  "plate_frac": 1.0021,
   "tw": 2,
-  "td": 2
+  "td": 2,
+  "plate_tiles": 2.004
  },
  "gate_wall": {
   "height_t": 3.08,
@@ -467,79 +472,90 @@
  "hall_keep": {
   "height_t": 4.7,
   "plate_px": 480.0,
-  "plate_frac": 1.0,
+  "plate_frac": 1.0021,
   "tw": 2,
-  "td": 2
+  "td": 2,
+  "plate_tiles": 2.004
  },
  "hut_builder": {
   "height_t": 3.09,
   "plate_px": 227.1,
-  "plate_frac": 0.946,
-  "tw": 1,
-  "td": 1
+  "plate_frac": 0.8021,
+  "tw": 2,
+  "td": 2,
+  "plate_tiles": 1.604
  },
  "lab_runes": {
   "height_t": 2.75,
   "plate_px": 228.9,
-  "plate_frac": 0.954,
-  "tw": 1,
-  "td": 1
+  "plate_frac": 0.625,
+  "tw": 2,
+  "td": 2,
+  "plate_tiles": 1.25
  },
  "mine_gold": {
   "height_t": 3.1,
   "plate_px": 226.9,
-  "plate_frac": 0.945,
-  "tw": 1,
-  "td": 1
+  "plate_frac": 0.7417,
+  "tw": 2,
+  "td": 2,
+  "plate_tiles": 1.483
  },
  "mortar_pit": {
   "height_t": 3.17,
   "plate_px": 231.4,
-  "plate_frac": 0.964,
-  "tw": 1,
-  "td": 1
+  "plate_frac": 1.1708,
+  "tw": 2,
+  "td": 2,
+  "plate_tiles": 2.342
  },
  "spark_spire": {
   "height_t": 2.75,
   "plate_px": 224.5,
-  "plate_frac": 0.935,
-  "tw": 1,
-  "td": 1
+  "plate_frac": 0.6188,
+  "tw": 2,
+  "td": 2,
+  "plate_tiles": 1.238
  },
  "store_gold": {
   "height_t": 3.1,
   "plate_px": 226.7,
-  "plate_frac": 0.944,
-  "tw": 1,
-  "td": 1
+  "plate_frac": 0.8229,
+  "tw": 2,
+  "td": 2,
+  "plate_tiles": 1.646
  },
  "store_mana": {
   "height_t": 3.14,
   "plate_px": 228.5,
-  "plate_frac": 0.952,
-  "tw": 1,
-  "td": 1
+  "plate_frac": 0.7688,
+  "tw": 2,
+  "td": 2,
+  "plate_tiles": 1.538
  },
  "totem_war": {
   "height_t": 2.88,
   "plate_px": 227.6,
-  "plate_frac": 0.949,
-  "tw": 1,
-  "td": 1
+  "plate_frac": 0.5125,
+  "tw": 2,
+  "td": 2,
+  "plate_tiles": 1.025
  },
  "tower_arrow": {
   "height_t": 2.94,
   "plate_px": 228.7,
-  "plate_frac": 0.953,
-  "tw": 1,
-  "td": 1
+  "plate_frac": 0.4792,
+  "tw": 2,
+  "td": 2,
+  "plate_tiles": 0.958
  },
  "tower_frost": {
   "height_t": 2.67,
   "plate_px": 227.4,
-  "plate_frac": 0.948,
-  "tw": 1,
-  "td": 1
+  "plate_frac": 0.5896,
+  "tw": 2,
+  "td": 2,
+  "plate_tiles": 1.179
  },
  "wall_stone": {
   "height_t": 3.17,
@@ -551,15 +567,17 @@
  "well_mana": {
   "height_t": 3.09,
   "plate_px": 225.9,
-  "plate_frac": 0.941,
-  "tw": 1,
-  "td": 1
+  "plate_frac": 0.7604,
+  "tw": 2,
+  "td": 2,
+  "plate_tiles": 1.521
  },
  "workshop_bombs": {
   "height_t": 3.09,
   "plate_px": 226.8,
-  "plate_frac": 0.945,
-  "tw": 1,
-  "td": 1
+  "plate_frac": 0.9333,
+  "tw": 2,
+  "td": 2,
+  "plate_tiles": 1.867
  }
 }
