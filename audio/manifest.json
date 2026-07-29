@@ -1,0 +1,218 @@
+{
+  "version": 2,
+  "note": "Петли: проигрывать через Web Audio, AudioBufferSourceNode.loop=true, loopStart/loopEnd из этого файла — так стык не зависит от того, как декодер обошёлся с задержкой mp3. В файле лежит петля В ПОЛЯХ (её хвост перед началом и голова после конца), поэтому играть файл целиком нельзя: поля прозвучали бы дважды.",
+  "mix": {
+    "musicGain": 0.55,
+    "sfxGain": 1.0
+  },
+  "playlist": {
+    "base": {
+      "title": "тема базы",
+      "pick": "random-per-session",
+      "tracks": [
+        "base",
+        "base_sparse",
+        "base_flute",
+        "base_pulse"
+      ],
+      "why": "Вариации ОДНОГО материала: общий темп, лад, инструменты и хук, меняется только плотность аранжировки. Хук держит узнаваемость игры, смена фактуры снимает усталость от петли. Движку: выбрать один трек на сессию и качать ТОЛЬКО его — на этом и держится вес первой загрузки (см. budget)."
+    },
+    "battle": {
+      "title": "боевая тема",
+      "pick": "fixed",
+      "tracks": [
+        "battle"
+      ],
+      "why": "Одна и всегда та же, вариаций нет намеренно: звучит редко и коротко и работает сигналом «началась драка», а сигнал обязан быть узнаваемым с первой секунды."
+    }
+  },
+  "music": {
+    "base": {
+      "file": "music_base.mp3",
+      "why": "бас и лютня, ударных нет вовсе — эталон, с которого пошёл весь плейлист",
+      "bpm": 74,
+      "loopStart": 0.09288,
+      "loopEnd": 26.235692,
+      "dur": 26.329,
+      "loopDur": 26.142812,
+      "lufsI": -20.0,
+      "peakDbtp": -7.2,
+      "bitrate": "160k",
+      "bytes": 527718,
+      "seamVsP95": 0.475,
+      "levelStepDb": 0.64,
+      "xfade": 0.523,
+      "hi6kDb": -46.9,
+      "bars": 7.98,
+      "beats": 31.93,
+      "bpmMeasured": 73.3
+    },
+    "base_sparse": {
+      "file": "music_base_sparse.mp3",
+      "why": "разреженная: арфа раз в несколько тактов, между фразами паузы",
+      "bpm": 74,
+      "loopStart": 0.09288,
+      "loopEnd": 26.273333,
+      "dur": 26.366,
+      "loopDur": 26.180453,
+      "lufsI": -20.0,
+      "peakDbtp": -7.3,
+      "bitrate": "160k",
+      "bytes": 528763,
+      "seamVsP95": 0.25,
+      "levelStepDb": 0.75,
+      "xfade": 0.25,
+      "hi6kDb": -42.6,
+      "bars": 6.0,
+      "beats": 24.0,
+      "bpmMeasured": 55.0
+    },
+    "base_flute": {
+      "file": "music_base_flute.mp3",
+      "why": "с флейтой: контрмелодия поверх хука, аранжировка плотнее",
+      "bpm": 74,
+      "loopStart": 0.09288,
+      "loopEnd": 22.767098,
+      "dur": 22.86,
+      "loopDur": 22.674218,
+      "lufsI": -20.0,
+      "peakDbtp": -7.4,
+      "bitrate": "160k",
+      "bytes": 458755,
+      "seamVsP95": 0.518,
+      "levelStepDb": 0.08,
+      "xfade": 0.811,
+      "hi6kDb": -39.7,
+      "bars": 6.99,
+      "beats": 27.94,
+      "bpmMeasured": 73.9
+    },
+    "base_pulse": {
+      "file": "music_base_pulse.mp3",
+      "why": "с пульсом: глухой рамный барабан на каждый бит",
+      "bpm": 74,
+      "loopStart": 0.09288,
+      "loopEnd": 26.188639,
+      "dur": 26.282,
+      "loopDur": 26.095759,
+      "lufsI": -20.0,
+      "peakDbtp": -4.9,
+      "bitrate": "160k",
+      "bytes": 527196,
+      "seamVsP95": 0.053,
+      "levelStepDb": 0.5,
+      "xfade": 0.25,
+      "hi6kDb": -37.6,
+      "bars": 8.01,
+      "beats": 32.05,
+      "bpmMeasured": 73.7
+    },
+    "battle": {
+      "file": "music_battle.mp3",
+      "why": "бой: лютня тремоло, гурди, рамные барабаны — плотнее и быстрее базы",
+      "bpm": 115,
+      "loopStart": 0.09288,
+      "loopEnd": 20.931156,
+      "dur": 21.024,
+      "loopDur": 20.838276,
+      "lufsI": -20.0,
+      "peakDbtp": -8.6,
+      "bitrate": "128k",
+      "bytes": 337337,
+      "seamVsP95": 0.276,
+      "levelStepDb": 0.72,
+      "xfade": 1.045,
+      "hi6kDb": -49.5,
+      "bars": 9.98,
+      "beats": 39.94,
+      "bpmMeasured": 115.0
+    }
+  },
+  "sfx": {
+    "place": {
+      "file": "sfx_place.mp3",
+      "title": "постановка здания",
+      "dur": 0.3,
+      "lufsM": -16.3,
+      "peakDbtp": -1.8,
+      "bytes": 2969
+    },
+    "loot": {
+      "file": "sfx_loot.mp3",
+      "title": "сбор добычи",
+      "dur": 0.45,
+      "lufsM": -16.0,
+      "peakDbtp": -3.8,
+      "bytes": 4223
+    },
+    "build_start": {
+      "file": "sfx_build_start.mp3",
+      "title": "старт стройки",
+      "dur": 0.42,
+      "lufsM": -16.2,
+      "peakDbtp": -1.9,
+      "bytes": 4014
+    },
+    "build_done": {
+      "file": "sfx_build_done.mp3",
+      "title": "готовность стройки",
+      "dur": 0.8,
+      "lufsM": -16.1,
+      "peakDbtp": -6.5,
+      "bytes": 6940
+    },
+    "deploy": {
+      "file": "sfx_deploy.mp3",
+      "title": "высадка войска",
+      "dur": 0.42,
+      "lufsM": -16.2,
+      "peakDbtp": -1.7,
+      "bytes": 4014
+    },
+    "destroy": {
+      "file": "sfx_destroy.mp3",
+      "title": "разрушение здания",
+      "dur": 0.9,
+      "lufsM": -16.2,
+      "peakDbtp": -1.9,
+      "bytes": 7776
+    },
+    "victory": {
+      "file": "sfx_victory.mp3",
+      "title": "победа",
+      "dur": 1.5,
+      "lufsM": -16.0,
+      "peakDbtp": -3.8,
+      "bytes": 12582
+    },
+    "defeat": {
+      "file": "sfx_defeat.mp3",
+      "title": "поражение",
+      "dur": 1.5,
+      "lufsM": -16.0,
+      "peakDbtp": -4.6,
+      "bytes": 12582
+    },
+    "denied": {
+      "file": "sfx_denied.mp3",
+      "title": "отказ",
+      "dur": 0.22,
+      "lufsM": -16.2,
+      "peakDbtp": -1.8,
+      "bytes": 2342
+    }
+  },
+  "budget": {
+    "limitBytes": 1572864,
+    "sessionBytes": 930415,
+    "folderBytes": 2444084,
+    "session": [
+      "все sfx",
+      "music.battle",
+      "один трек из playlist.base.tracks",
+      "manifest.json"
+    ],
+    "worstBaseTrack": "base_sparse",
+    "note": "sessionBytes — худший случай одной сессии (самая тяжёлая тема базы). folderBytes больше лимита и это нормально: остальные три темы базы за сессию не скачиваются."
+  }
+}

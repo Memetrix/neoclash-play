@@ -463,9 +463,9 @@
   "plate_tiles": 2.004
  },
  "gate_wall": {
-  "height_t": 3.08,
-  "plate_px": 225.7,
-  "plate_frac": 0.94,
+  "height_t": 1.78,
+  "plate_px": 240.0,
+  "plate_frac": 1.0,
   "tw": 1,
   "td": 1
  },
@@ -558,9 +558,9 @@
   "plate_tiles": 1.179
  },
  "wall_stone": {
-  "height_t": 3.17,
-  "plate_px": 232.6,
-  "plate_frac": 0.969,
+  "height_t": 1.81,
+  "plate_px": 240.0,
+  "plate_frac": 1.0,
   "tw": 1,
   "td": 1
  },
